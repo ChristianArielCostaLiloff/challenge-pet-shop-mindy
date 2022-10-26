@@ -27,7 +27,7 @@ async function showContent() {
     );
     clearHtml(container);
     sortedProducts.forEach(createProduct);
-    //0 matches
+    //0 Elements
     if (sortedProducts.length < 1) {
       container.innerHTML = "<h2>No elements to display</h2>";
     }
