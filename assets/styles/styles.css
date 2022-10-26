@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 80vh;
+    background-image: url(../img/perro-slider1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 1em;
+}
+
+.contenedor_logo-nav{
+    background-color: white;
+    height: 80px;
+}
+
+.navbar{
+    z-index: 1;
+}
+
+.nav-item{
+    background-color: rgba(235,38,142,255);
+    border-radius: 1em;
+}
