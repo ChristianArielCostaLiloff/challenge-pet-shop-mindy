@@ -5,44 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/img/logo_high_res.png" type="image/x-icon">
     <title>Mindy Petshop | Inicio</title>
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
+    <header class="header d-flex flex-column">
 
-        <div>
-            <div>
-            <!-- logo -->
+        <div class="contenedor_logo-nav w-100 d-flex justify-content-evenly">
+
+            <div class="contenedor_logo_header w-25 d-flex">
+                <!-- logo -->
+                <div class="logo_header container-fluid d-flex justify-content-center">
+                    <img src="./assets/img/logo_high_res.png" alt="logo mindy">
+                </div>
             </div>
+
+            <div class="contenedor_nav w-75 d-flex container-fluid">
+                <!-- nav -->
+                <nav class="navbar navbar-expand-lg tx-bg-light d-flex container-fluid">
+                    <div class="container-fluid d-flex flex-column">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+                    <ul class="nav_list nav d-flex me-3 pe-3 gap-2 container-fluid d-flex justify-content-evenly">
+                      <li class="nav-item">
+                        <a class="nav-link text-light fw-bold" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link text-light fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item fw-normal" href="#">Farmacia</a></li>
+                          <li><a class="dropdown-item fw-normal" href="#">Juguetes</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light fw-bold" href="./pages/pastevents.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light fw-bold" href="./pages/contact.html">Tienda</a>
+                      </li>
+                    </ul>
+                  </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+
         </div>
 
-        <div>
-            <div>
-            <!-- nav -->
-            </div>
-        </div>
+        <div class="contenedor_mensaje d-flex">
 
-        <div>
-            <div>
-                <!-- Mensaje bienvenida -->
+            <!-- Mensaje bienvenida -->
+            <div class="mensaje_bienvenida d-flex">
+                <p>MENSAJE DE BIENVENIDA</p>
             </div>
+
         </div>
 
     </header>
 
     <!-- MAIN -->
-    <main>
-        <div>
-            <!-- titulo "nuestros clientes" -->
+    <main class="contenedor_principal">
+
+        <!-- titulo "nuestros clientes" -->
+        <div class="titulo_clientes">
+
         </div>
-        <div>
-            <!-- carousel con animales -->
+
+        <!-- carousel con animales -->
+        <div class="carrousel_animales">
+
         </div>
+
     </main>
 
     <footer>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
