@@ -25,7 +25,7 @@
             <div class="contenedor_nav w-75 d-flex container-fluid">
                 <!-- nav -->
                 <nav class="navbar navbar-expand-lg tx-bg-light d-flex container-fluid">
-                    <div class="container-fluid d-flex flex-column">
+                    <div class="container-fluid d-flex flex-column align-items-end">
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -56,11 +56,12 @@
 
         </div>
 
-        <div class="contenedor_mensaje d-flex">
+        <div class="contenedor_mensaje d-flex align-items-center justify-content-start m-5 p-5">
 
             <!-- Mensaje bienvenida -->
-            <div class="mensaje_bienvenida d-flex">
-                <p>MENSAJE DE BIENVENIDA</p>
+            <div class="mensaje_bienvenida d-flex flex-column align-items-start justify-content-center">
+                <h1 class="pt-5 text-light fs-1 fw-bold fst-italic">¡Bienvendos al mejor lugar para tu mascota!</h1>
+                <p class="pt-5 ms-lg-5 text-light fs-3 fw-normal fst-italic">Somos una tienda con lo mejor para tu mejor amigo</p>
             </div>
 
         </div>
@@ -71,13 +72,53 @@
     <main class="contenedor_principal">
 
         <!-- titulo "nuestros clientes" -->
-        <div class="titulo_clientes">
-
+        <div class="titulo_clientes d-flex align-items-center justify-content-evenly">
+            <div class="     d-flex flex-column align-items-center justify-content-evenly">
+                <a href="" class="a_h2"><h2 class="h2_inicio fst-italic d-flex align-items-center">CONTACTANOS</h2></a>
+                <a href="tel:+" class="a_h2"><h2 class="h2_inicio fst-italic d-flex align-items-center">+54 11 454 2069</h2></a>
+                <a href="mailto:" class="a_h2"><h2 class="h2_inicio fst-italic d-flex align-items-center">mindy@petshop.com</h2></a>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-around gap-3">
+                <a href="" class="a_h2"><h2 class="h2_inicio fst-italic d-flex align-items-center">DONDE ESTAMOS</h2></a>
+                <a href="" class="a_h2"><h2 class="h2_inicio fst-italic d-flex align-items-center"><i class="fa-solid fa-location-dot icono_location"></i></h2></a>
+            </div>
         </div>
 
-        <!-- carousel con animales -->
-        <div class="carrousel_animales">
+        <div class="d-flex">
+            <!-- carousel con animales -->
+        <div class="carrousel_animales w-100">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/perro-slider4.jpg" class="d-block w-100 img_carousel" alt="imagen perro">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/gato-slider-1.jpg" class="d-block w-100 img_carousel" alt="imagen gato">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/hamster-slider1.jpg" class="d-block w-100 img_carousel" alt="imagen hamster">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/loro-slider1.jpg" class="d-block w-100 img_carousel" alt="imagen loro">
+                  </div>
+                  <div class="carousel-item">
+                  <img src="./assets/img/conejo-slider1.jpg" class="d-block w-100 img_carousel" alt="imagen conejo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
 
+            <div class="d-flex  align-items-center justify-content-center">
+                <p class="ps-4 text-dark fs-3 fw-normal fst-italic w-100">En MINDY nos encargamos de hacer la experiencia de tu mascota la más placentera, somos una pequeña tienda que arrancó desde 2022 con el fin de poner el cuidado especial que se merecen los integrantes de la familia que siempre nos sacan una sonrisa.</p>
+            </div>
         </div>
 
     </main>
@@ -85,5 +126,6 @@
     <footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/98b49db4c9.js" crossorigin="anonymous"></script>
 </body>
 </html>
