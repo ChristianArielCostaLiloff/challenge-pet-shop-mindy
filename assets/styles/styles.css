@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* --- HEADER --- */
 header{
     min-height: 760px;
     background-image: url(../img/perro-slider1.jpg);
@@ -25,6 +25,10 @@ header{
     border-radius: 1em;
 }
 
+.nav-item:hover{
+    background-color: rgba(200,20,142,255);
+}
+
 .titulo_clientes{
     height: 210px;
     background-color: rgba(235,38,142,255);
@@ -41,4 +45,88 @@ header{
 .img_carousel{
     height: 350px;
     object-fit: cover;
+}
+
+/* --- FOOTER --- */
+
+footer {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mediosDePago-img img,
+.mediosDeEnvio-img img {
+    height: 30px;
+}
+
+.methods-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(235,38,142,255);
+}
+
+.medios {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px
+}
+
+.contacto-about {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacto-about a {
+    color: white;
+}
+
+.contacto-about a:hover {
+    color: var(--main-color);
+    font-style: italic;
+}
+
+.copy {
+    height: 20%;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    height: 10vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-footer {
+    height: 6vh;
+}
+
+.logo-footer img {
+    height: 100%;
+}
+
+.social {
+    display: flex;
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
 }
