@@ -1,212 +1,316 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* --- HEADER --- */
-.header_index{
-    min-height: 760px;
-    background-image: url(../img/perro-slider1.jpg);
-    background-repeat: no-repeat;
-    background-position-y: 1em;
+
+.header_index {
+  min-height: 760px;
+  background-image: url(../img/perro-slider1.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 1em;
 }
 
-.contenedor_logo-nav{
-    background-color: white;
-    height: 80px;
+.contenedor_logo-nav {
+  background-color: white;
+  height: 80px;
 }
 
-.navbar{
-    z-index: 1;
+.navbar {
+  z-index: 1;
 }
 
-.nav-item{
-    background-color: rgba(235,38,142,255);
-    border-radius: 1em;
+.nav-item {
+  background-color: rgba(235, 38, 142, 255);
+  border-radius: 1em;
 }
 
-.nav-item:hover{
-    background-color: rgba(200,20,142,255);
+.nav-item:hover {
+  background-color: rgba(200, 20, 142, 255);
 }
 
-.titulo_clientes{
-    height: 210px;
-    background-color: rgba(235,38,142,255);
+.titulo_clientes {
+  height: 210px;
+  background-color: rgba(235, 38, 142, 255);
 }
 
-.a_h2{
-    text-decoration: none
+.a_h2 {
+  text-decoration: none;
 }
 
-.h2_inicio{
-    color: white;
+.h2_inicio {
+  color: white;
 }
 
-.img_carousel{
-    height: 350px;
-    object-fit: cover;
+.img_carousel {
+  height: 350px;
+  object-fit: cover;
 }
 
-.index_map{
-    border-radius: 1.5em;
+.index_map {
+  border-radius: 1.5em;
 }
 
 /* --- FOOTER --- */
 
 footer {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Nunito', sans-serif;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
 }
 
 .mediosDePago-img img,
 .mediosDeEnvio-img img {
-    height: 30px;
+  height: 30px;
 }
 
 .methods-contact {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 50vh;
-    background-color: rgba(235,38,142,255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  background-color: rgba(235, 38, 142, 255);
 }
 
 .medios {
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 
 .contacto-about {
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .contacto-about a {
-    color: white;
+  color: white;
 }
 
 .contacto-about a:hover {
-    color: var(--main-color);
-    font-style: italic;
+  color: var(--main-color);
+  font-style: italic;
 }
 
 .copy {
-    height: 20%;
-    background-color: var(--dark);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  height: 20%;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer {
-    height: 10vh;
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  height: 10vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .logo-footer {
-    height: 6vh;
+  height: 6vh;
 }
 
 .logo-footer img {
-    height: 100%;
+  height: 100%;
 }
 
 .social {
-    display: flex;
-    max-width: 100%;
-    margin-top: 15px;
+  display: flex;
+  max-width: 100%;
+  margin-top: 15px;
 }
 
 .redes {
-    display: flex;
-    gap: 20px;
-    max-width: 100%;
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
 }
 
 /* --- CONTACT --- */
 
-.header_contact{
-    min-height: 760px;
-    background-image: url(../img/perro-slider3.jpg);
-    background-repeat: no-repeat;
-    background-position-y: 1em;
-    background-position-x: -30em;
+.header_contact {
+  min-height: 500px;
+  background-image: url(../img/perro-slider3.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -6em;
+  background-position-x: -30em;
 }
 
-.texto_noticia{
-    text-shadow: 5px 5px 10px black;
+.main_contact{
+    min-height: 600px;
 }
 
-.container_contact1{
-    width: 48%;
-  }
-  
-  
-  .container_contact{
-    width: 48%;
+.texto_noticia {
+  text-shadow: 5px 5px 10px black;
+}
+
+.container_contact1 {
+  width: 48%;
+}
+
+.container_contact {
+  width: 48%;
   display: flex;
   flex-direction: column;
-  }
-  
-  .imageContact{
+}
+
+.imageContact {
   width: 200px;
   height: 200px;
-  }
-  .container_form{
-    width: 100%;
-    }
-  
-    .location{
-      color: rgba(235,38,142,255);
-      margin-top: 100px;
-      width: 200px;
+}
+.container_form {
+  width: 100%;
+}
+
+.location {
+  color: rgba(235, 38, 142, 255);
+  margin-top: 100px;
+  width: 200px;
   height: 200px;
-  
-    }
-    section span{
-      color: rgba(235,38,142,255)
-    }
-  
-    section h1{
-      font-size: 70px;
-    }
-  
-    @media screen and (max-width:600px){
-  
-  
-      .imageContact{
-        width: 200px;
-        height: 200px;
-        margin-top: 50px;
-        }
-        .location{
-          width: 100px;
-          height: 100px;
-        }
-        .container_contact{
-          width: 100%;
-        display: flex;
-        flex-direction: column;
-        }
-        .container_geral{
-          width: 100%;
-        display: flex;
-        flex-direction: column;
-        }
-        .container_geral{
-          align-items: center;
-        }
+}
+section span {
+  color: rgba(235, 38, 142, 255);
+}
+
+section h1 {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 600px) {
+  .imageContact {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
   }
+  .location {
+    width: 100px;
+    height: 100px;
+  }
+  .container_contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container_geral {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container_geral {
+    align-items: center;
+  }
+}
+
+/* ---  CARRITO --- */
+
+.header_carrito{
+    height: fit-content;
+    border-bottom: 2px solid #ff0072;
+    padding-bottom: 10px;
+}
+
+.main_carrito{
+    min-height: 615px;
+}
+
+table {
+  border-top: 2px solid rgb(197, 33, 129);
+}
+.imageProduct {
+  width: 100px;
+  height: 100px;
+}
+.formCantidad {
+  width: 80px;
+  display: flex;
+}
+
+.totales {
+  border-top: 2px solid rgba(235, 38, 142, 255);
+  font-size: 25px;
+}
+.btnButon2 {
+  background-color: rgba(235, 38, 142, 255);
+  color: white;
+}
+
+.boton2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #ff0072;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #ff0072;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+.boton2:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #ff0072;
+  z-index: -1;
+}
+
+.boton2:hover,
+.boton2:focus {
+  color: white;
+}
+
+.boton2:hover:before,
+.boton2:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.boton2:active {
+  transform: scale(0.9);
+}
+
+.imgeliminar {
+  width: 40px;
+  height: 40px;
+}
+
+.imgborrarTodo {
+  width: 50px;
+  height: 50px;
+}
+
+th {
+  width: 100px;
+}
+td {
+  width: 100px;
+}
+
+.descripcion {
+  width: 201px;
+}
