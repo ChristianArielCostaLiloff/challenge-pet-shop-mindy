@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 /* --- HEADER --- */
-header{
+.header_index{
     min-height: 760px;
     background-image: url(../img/perro-slider1.jpg);
     background-repeat: no-repeat;
@@ -133,6 +133,18 @@ footer {
 }
 
 /* --- CONTACT --- */
+
+.header_contact{
+    min-height: 760px;
+    background-image: url(../img/perro-slider3.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 1em;
+    background-position-x: -30em;
+}
+
+.texto_noticia{
+    text-shadow: 5px 5px 10px black;
+}
 
 .container_contact1{
     width: 48%;
