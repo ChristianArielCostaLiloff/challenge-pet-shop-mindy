@@ -47,6 +47,10 @@
     object-fit: cover;
 }
 
+.index_map{
+    border-radius: 1.5em;
+}
+
 /* --- FOOTER --- */
 
 footer {
