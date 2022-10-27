@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/styles/sylecontact.css" />
+</head>
+    
+<body>
+  <main>
+
+    <div class="container_geral d-flex justify-content-between ">
+      <section class=" container_contact1 d-flex flex-column align-items-center  ">
+     <div class="d-flex flex-column align-items-center flex-wrap">
+      <h1>Ponte en <span>Contacto</span></h1>   
+        <img src="./assets/img/propietario.png" alt="image contact"  class="imageContact" >
+     </div>
+     
+      <a href="https://www.google.com/maps/place/R%C3%ADo+de+Janeiro+300,+C1405CCB+CABA,+Argentina/@-34.6117922,-58.4325985,17z/data=!4m5!3m4!1s0x95bcca429815227f:0x5d302e497c2cda87!8m2!3d-34.6117966!4d-58.4304098">
+        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="location" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+        </svg>
+      </a>
+
+      </section>
+      <div class="container_contact p-2 ">
+        <section>
+          <p>En Mindy PetShop nos esforzamos y disfrutamos al máximo servirte, contamos con los servicios y valores agregados que necesitas tu y tu mascota, disfruta con tranquilidad los servicios que ofrecemos a continuación y haz parte de la experiencia PetShop Animal.</p>
+        </section>
+      <form id="formRegist" class=" container_form p-3 row  ">
+        <div class=" mb-3 ">
+          <label for="formGroupExampleInput" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputNombre"
+            placeholder="entra tu nombre"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Apellidos</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputApellido"
+            placeholder="entra tus apellidos"
+            required
+          />
+        </div>
+
+        <div class="mb-3 col-auto">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email
+          </label>
+          <input
+            type="email"
+            class="form-control w-10"
+            id="inputEmail"
+            placeholder="name@example.com"
+            required
+          />
+        </div>
+        <div class="mb-3 col-auto">
+          <label for="formGroupExampleInput" class="form-label">Telefono</label>
+          <input
+            type="number"
+            class="form-control"
+            id="inputTelefono"
+            placeholder="entra tu telefono"
+            required
+          />
+        </div>
+    
+    
+
+    
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Nombre Mascota</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputMascota"
+            placeholder="Nombre Mascota"
+            required
+          />
+        </div>
+    
+        <select class="form-select mb-3" aria-label="Default select example" required>
+          <option id="select"selected>Tipo De Mascota </option>
+          <option  value="perro">Perro</option>
+          <option  value="gato">gato</option>
+          <option  value="gallina">gallina</option>
+          
+        </select>
+    
+    
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Comentarios</label
+          >
+          <textarea
+            class="form-control"
+            id="comentario"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="col-12 ">
+          <button id="btnRegistrar" class="btn btn-dark">Enviar</button>
+        </div>
+      </form>
+    </div>
+    </div>
+      
+    
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="../assets/js/contact.js"></script>
+</body>
+</html>
