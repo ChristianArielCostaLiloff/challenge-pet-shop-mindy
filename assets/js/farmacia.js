@@ -59,9 +59,10 @@ function clearHtml(domElement) {
 }
 function createProduct(product) {
   let quantity = 0,
-    btnStyle, textStyle, text;
+    btnStyle, textStyle, text, style;
   if (cart.filter((e) => e.id == product._id).length > 0) {
     btnStyle = "btn-buy btn-buy--clicked";
+    style = "card-stats--background-red";
   } else {
     btnStyle = "btn-buy";
   }
@@ -82,7 +83,7 @@ function createProduct(product) {
             <h2>${product.nombre}</h2>
             <p>${product.descripcion}</p>
           </div>
-          <div class="card-stats"id="input-quantity-${product._id}">
+          <div class="card-stats ${style}"id="input-quantity-${product._id}">
             <div class="unidades stat">
               <div class="value">Precio</div>
               <div class="type">$ ${product.precio}</div>
