@@ -4,15 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="../assets/styles/styles.css" />
   <link rel="shortcut icon" href="../assets/img/logo_high_res.png" type="image/x-icon">
-  <title>Mindy Petshop | Contacto</title>
+  <link rel="stylesheet" href="../assets/styles/styles.css">
+  <title>Mindy Petshop | Carrito</title>
 </head>
-    
 <body>
-  <header class="header_contact d-flex flex-column">
+
+  <header class="header_carrito d-flex flex-column">
 
     <div class="contenedor_logo-nav w-100 d-flex justify-content-evenly">
 
@@ -43,10 +42,10 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">Contacto</a>
+                    <a class="nav-link text-light fw-bold" href="./contact.html">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="./carrito.html">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="nav-link text-light fw-bold" href="#">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
                   </li>
                 </ul>
               </div>
@@ -57,119 +56,47 @@
 
     </div>
 
-    <div class="contenedor_mensaje d-flex align-items-center justify-content-start m-5 p-5">
-
-        <!-- Mensaje bienvenida -->
-        <div class="mensaje_bienvenida d-flex flex-column align-items-start justify-content-center">
-            <h1 class="pt-5 text-light fs-1 fw-bold fst-italic texto_noticia">¿Deseas conocernos más o conocer las últimas noticias para tu mascota?</h1>
-            <p class="pt-5 ms-lg-5 text-light fs-3 fw-normal fst-italic texto_noticia">¡Subscríbete para tener todas las novedades!</p>
-        </div>
-
-    </div>
+    
 
 </header>
 
-
-  <main class="main_contact pb-4">
-
-    <div class="container_geral d-flex justify-content-between ">
-      <section class=" container_contact1 d-flex flex-column align-items-center  ">
-     <div class="d-flex flex-column align-items-center flex-wrap">
-      <h1>Ponte en <span>Contacto</span></h1>   
-        <img src="../assets/img/propietario.png" alt="image contact"  class="imageContact mt-3" >
-     </div>
-     
-     <iframe class="index_map mt-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26269.584127848208!2d-58.430409999999995!3d-34.611797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca429815227f%3A0x5d302e497c2cda87!2sR%C3%ADo%20de%20Janeiro%20300%2C%20C1405CCB%20CABA!5e0!3m2!1ses-419!2sar!4v1666902247940!5m2!1ses-419!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-      </section>
-      <div class="container_contact p-2 ">
-      <form id="formRegist" class=" container_form p-3 row  ">
-        <div class=" mb-3 ">
-          <label for="formGroupExampleInput" class="form-label">Nombre</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputNombre"
-            placeholder="Ingresa tu nombre"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="formGroupExampleInput" class="form-label">Apellido</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputApellido"
-            placeholder="Ingresa tu apellido"
-            required
-          />
-        </div>
-
-        <div class="mb-3 col-auto">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Email
-          </label>
-          <input
-            type="email"
-            class="form-control w-10"
-            id="inputEmail"
-            placeholder="Ingresa tu email"
-            required
-          />
-        </div>
-        <div class="mb-3 col-auto">
-          <label for="formGroupExampleInput" class="form-label">Teléfono</label>
-          <input
-            type="number"
-            class="form-control"
-            id="inputTelefono"
-            placeholder="Número de telefono"
-            required
-          />
-        </div>
-
-        <div class="mb-3">
-          <label for="formGroupExampleInput" class="form-label">Nombre de mascota</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputMascota"
-            placeholder="Ingresa el nombre de tu mascota"
-            required
-          />
-        </div>
-    
-        <select class="form-select mb-3" aria-label="Default select example" required>
-          <option id="select"selected>Tipo de Mascota</option>
-          <option  value="perro">Perro</option>
-          <option  value="gato">Gato</option>
-          <option  value="conejo">Conejo</option>
-          <option  value="loro">Loro</option>
-          <option  value="hamster">Hamster</option>
-          <option  value="tortuga">Tortuga</option>
-          
-        </select>
-    
-    
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Dejanos un comentario:</label>
-          <textarea
-            class="form-control"
-            id="comentario"
-            rows="3"
-          ></textarea>
-        </div>
-        <div class="col-12 ">
-          <button id="btnRegistrar" class="btn btn-dark">Subscrirse</button>
-        </div>
-      </form>
+  <main class="main_carrito pb-3">
+    <!-- Carrito -->
+    <div class="d-flex justify-content-evenly  ">
+      <div class="container_carrito mt-5">
+        <section class="d-flex justify-content-between">
+          <h1 >Carrito de compras</h1>
+          <input id="borrar-todo" class="imgborrarTodo" type="image" src="../assets/img/borrar.png" alt="">
+        </section>
+        <table class="mt-5">
+          <thead>
+            <tr >
+              <th >PRODUCTO</th>
+              <th class="descripcion d-flex justify-content-center"  >DESCRIPCION</th>
+              <th  >PRECIO</th>
+              <th >CANTIDAD</th>
+              <th >SUBTOTAL</th>
+              <th ></th>
+            </tr>
+          </thead>
+          <tbody id="container">
+            
+            
+          </tbody>
+        </table>
+        <div >        
+          <section class="totales d-flex justify-content-between mt-5">
+            <h2 ">Total</h2> 
+            <p id="precio-total">$0</p>
+          </section>
+            <div class="d-flex justify-content-end">
+              <button class="boton2" id="btn-buy"> pagar</button>
+            </div>
+      </div>
+      <div id="message"></div>
+      </div>
     </div>
-    </div>
-      
-    
-
   </main>
-
   <footer>
     <div class="container-fluid methods-contact">
         <div class="medios">
@@ -272,10 +199,8 @@
         </div>
     </div>
 </footer>
-
-
+<script src="../assets/js/carrito.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/98b49db4c9.js" crossorigin="anonymous"></script>
-  <script src="../assets/js/contact.js"></script>
 </body>
 </html>
